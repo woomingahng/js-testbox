@@ -36,8 +36,3 @@ console.log(ids);
 var merged = [...initialData, ...newData.filter((d) => !ids[d.ID])];
 
 console.log("!!!!!", merged);
-console.log("2222", merged);
-console.log("3333", merged);
-console.log("3333", merged);
-console.log("55555", merged);
-console.log("666666", merged);
