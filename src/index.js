@@ -35,4 +35,4 @@ var ids = initialData.reduce((map, cur) => {
 console.log(ids);
 var merged = [...initialData, ...newData.filter((d) => !ids[d.ID])];
 
-console.log(merged);
+console.log("!!!!!", merged);
